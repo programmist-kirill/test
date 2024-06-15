@@ -28,14 +28,7 @@ def one(file_path,name_user,path):
 	print(secret)
 
 def two(file_path,name_user,path):
-	direcory_folder = '/home/kirill/update/' + path + '/'
-	source_folder = direcory_folder
-    destination_folder = '/home/kirill/ip/'
-    files_to_move = os.listdir(source_folder)
-    for file_name in files_to_move:
-    	source_file = os.path.join(source_folder, file_name)
-        destination_file = os.path.join(destination_folder, file_name)
-        shutil.move(source_file, destination_file)
+	shutil.move('/home/kirill/update/test-start', '/home/kirill/ip')
         print("Файлы успешно перемещены.")
 
 
