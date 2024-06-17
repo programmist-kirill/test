@@ -9,7 +9,7 @@ class main_locale:
 	file_name_architecture = '/home/' + name_user + '/update/' + path + '/architecture'
 	file_name_version = '/home/' + name_user + '/update/' + path + '/version'
 	file_name_repositories = '/home/' + name_user + '/update/' + path + '/repositories'
-	file_name_size = '/home/' + name_user + '/update/' + path '/size'
+	file_name_size = '/home/' + name_user + '/update/' + path + '/size'
 
 	def Package(file_path,file_name_package,name_user,path):
 
