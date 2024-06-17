@@ -76,7 +76,7 @@ class main_locale:
 
 			time.sleep(0.1)
 			with open('/home/' + name_user + '/update/' + path + '/version','w') as fp:
-		    	fp.write(secret)
+				fp.write(secret)
 	version(file_path,file_name_version,name_user,path)
 
 
@@ -99,7 +99,7 @@ class main_locale:
 
 			time.sleep(0.1)
 			with open('/home/' + name_user + '/update/' + path + '/repositories','w') as fp:
-		    	fp.write(secret)
+				fp.write(secret)
 	repositories(file_path,file_name_repositories,name_user,path)
 
 	def size(file_name_size,name_user,path):
