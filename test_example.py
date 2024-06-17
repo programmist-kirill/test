@@ -54,7 +54,7 @@ class main_locale:
 
 			time.sleep(0.1)
 			with open('/home/' + name_user + '/update/' + path + '/architecture','w') as fp:
-		    	fp.write(secret)
+				fp.write(secret)
 	architecture(file_path,file_name_architecture,name_user,path)
 
 	def version(file_path,file_name_version,name_user,path):
